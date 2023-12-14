@@ -10,9 +10,7 @@
 
 ## Construcción de pseudocódigo usando arreglos unidimensionales
 
-### Ejercicio 001
-
-**Ejercicio.Java**
+### Ejercicio 1
 
 Genera una aplicación que permita ingresar valores a un arreglo de cadenas. El arreglo almacena el número de elementos que el usuario lo disponga. Se puede plantear el escenario que se ingresen nombres de marcas de vehículos.
 
@@ -21,23 +19,21 @@ Por ejemplo, si el usuario decide ingresar 5 marcas; el arreglo solo debe permit
 Considerar las siguientes excepciones, no se contabilizan dentro del número de elementos, marcas que empiecen con las letras
 A, C, T.
 
-### Ejercicio 3
+### Ejercicio 2
 Dado el arreglo; determinar cuantos elementos están arriba de la media aritmética y cuantos están por debajo de la medía aritmética.
 ```
-int[] arreglo = {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
+arreglo -> {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
 ```
 
-### Ejercicio 4
+### Ejercicio 3
 Dados los siguientes arreglos
 ```
-double[] promedios = {10, 10, 9.1, 7, 6.1, 4, 8};
-String[] estudiantes = {"Kimberly Gonzalez", "Mark Hogan",
-            "Teresa Martinez", "Julia Johnson", "Mark Cook", "Jennifer Manning", "Juan Vasquez"};
+Arreglo de tipo Real promedios [] => {10, 10, 9.1, 7, 6.1, 4, 8}
+Arreglo de tipo Cadena estudiantes [] => {"Kimberly Gonzalez", "Mark Hogan", "Teresa Martinez", "Julia Johnson", "Mark Cook", "Jennifer Manning", "Juan Vasquez"} 
 ```
-
 Genere  los datos para el arreglo
 ```
-String[] promediosCualitativos = new String[7];
+promediosCualitativos(7), Cadena[a-z, A-Z, " "]
 
 ```
 * Promedio Regular son todas las notas >=0 y <=5.9
@@ -57,16 +53,15 @@ Juan Vasquez promedio: 8,00 promedio cualitativo ?
 ```
 
 ### Ejercicios 5
-Analice el siguiente código
+Analice el siguiente flujo
 ```
-Scanner entrada = new Scanner(System.in);
-String[] estudiantes = {"Kimberly", "Hogan", "Teresa", "Luis", "Mark", "Jennifer", "Alcides"};
-String inicial;
-boolean bandera = true;
-while(bandera){
-    System.out.println("Ingrese una letra");
-    inicial = entrada.nextLine();
- }
+estudiantes => {"Kimberly", "Hogan", "Teresa", "Luis", "Mark", "Jennifer", "Alcides"}
+Cadena inicial
+Lógica bandera => true
+Mientras(bandera)
+    Escribir "Ingrese una letra"
+    leer (inicial)
+FinMientras
 ```
 Modifique el ciclo repetitivo para que salga del mismo, cuando el usuario ingrese por teclado una letra que coincida con alguna de las primeras letras de los nombres del arreglo **estudiantes**. Debe usar un ciclo repetitivo para recorrer el arreglo **estudiantes**.
 
