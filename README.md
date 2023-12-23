@@ -59,10 +59,10 @@ Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o ne
 
 Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de la salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar en la figura. 
 
-*
-* *
-* * *
-* * * *
+> *
+> * *
+> * * *
+> * * * *
 Ejemplo dado un límite de 4. 
 
 ### Ejercicios 10
