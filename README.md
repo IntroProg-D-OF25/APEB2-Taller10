@@ -1,77 +1,80 @@
-# Taller 08 (Laboratorio)
+# Taller 09 (Laboratorio-GRUPAL)
 
-## Representación gráfica y diseño de la solución de problemas con pseudocódigo aplicando arreglos unidimensionales.
+## Representación gráfica y diseño de la solución de problemas con pseudocódigo aplicando arreglos bidimensionales.
 
-* Leer detenidamente cada problemática propuesta.
-* Plantear el esquema de forma general / breve = ANÁLISIS.
-* Diseñar la solución formal en pseudocódigo A MANO, EN PAPEL O WORD (use algoritmos y/o PSeInt opcionalmente - éste último solo para verificación). Considere las reglas para su representación: Indentación, bloques de definición de variables/dominios y de control (entrada, proceso, salida), etc. 
-* Diseñar la solución en flujograma (DiaUML, Word otros, NO USE PseINT para la entrega final, usará ello solo como verificación, si únicamente adjunta el .psc no será considerado para puntuar).
-* Realice y evidencie la prueba de escritorio, que confirme la funcionalidad/resultados correctos de su solución (puede usar papel, excel, word, etc.).
+* Definir la mejor estrategia de trabajo en grupo, ya que Ud. deberá defender individualmente todas las soluciones del presente taller en la clase presencial, y en base a esta defensa, de le asignará la calificación individualmente (pese a ser un taller grupal).
+* Leer detenidamente cada problemática propuesta y razonar inicialmente su solución. 
+* Plantear el esquema de solución de forma general / breve => ANÁLISIS.
+* Diseñar la solución formal en pseudocódigo a mano, EN PAPEL O WORD (use algoritmos y/o PSeInt opcionalmente - éste último solo para verificación). Considere las reglas para su representación: Indentación, bloques de definición de variables/dominios y de control (entrada, proceso, salida), definiciones correctas de arreglos y/o matrices, claras y correctas estructuras selectivas y/o repetitivas, etc.
+* Realice y evidencie la prueba de escritorio, que confirme la funcionalidad/resultados correctos de su solución (puede usar papel, excel, word, o la salida del mismo PSeInt.).
 
-## Construcción de pseudocódigo usando arreglos unidimensionales
+## Construcción de pseudocódigo usando arreglos bidimensionales / Matrices.
 
-### Ejercicio 1
+### Ejercicios 1
 
-Genera una aplicación que permita ingresar valores a un arreglo de cadenas. El arreglo almacena el número de elementos que el usuario lo disponga. Se puede plantear el escenario que se ingresen nombres de marcas de vehículos.
+El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia INTRODUCCIÓN A LA PROGRAMACIÓN en función a los promedios por estudiante, dichos promedios se deben calcular (ponderar) de 3 calificaciones (ACD que representa el 35% de la nota, APE del 35% y la nota del AA con un peso del 30%). En resumen, los requerimientos son los siguientes: 
 
-Por ejemplo, si el usuario decide ingresar 5 marcas; el arreglo solo debe permitir ingresar ese número elementos.
+- Registre los nombres de cada estudiante de dicho paralelo.
+- Genere aleatoriamente las notas ACD, APE, AA, para cada uno de los 28 estudiantes de 0-10 pts. 
+- Calcule el promedio de cada uno de los estudiantes del paralelo dada la siguiente ponderación: ACD->35%, APE->35%, y el AA->30%.
+- Obtenga el promedio del curso, del paralelo C. 
+- Liste los nombres de los estudiantes y su nota, que hayan obtenido un promedio por encima del promedio del curso. 
+- Liste los nombres de los estudiantes y su nota, que hayan obtenido un promedio por debajo del promedio del curso. 
+- Muestre el estudiante con su calificación, si es el del mayor promedio (el más alto de la clase). 
+- Muestre el estudiante con su calificación, si es el del menor promedio (el más bajo de la clase). 
 
-Considerar las siguientes excepciones, no se contabilizan dentro del número de elementos, marcas que empiecen con las letras
-A, C, T.
+### Ejercicios 2
 
-### Ejercicio 2
-Dado el arreglo; determinar cuantos elementos están arriba de la media aritmética y cuantos están por debajo de la medía aritmética.
-```
-arreglo -> {1, 10, 11, 12, 12, 13, 16, 2, 3, 4, 9, 10, 21};
-```
+Crea un programa que gestione el inventario de una tienda. Utiliza una matriz bidimensional para almacenar los productos disponibles en la tienda, con información como nombre, precio y cantidad. El programa debe permitir agregar nuevos productos, actualizar existencias, buscar productos y eliminarlos.
 
-### Ejercicio 3
-Dados los siguientes arreglos
-```
-Arreglo de tipo Real promedios [] => {10, 10, 9.1, 7, 6.1, 4, 8}
-Arreglo de tipo Cadena estudiantes [] => {"Kimberly Gonzalez", "Mark Hogan", "Teresa Martinez", "Julia Johnson", "Mark Cook", "Jennifer Manning", "Juan Vasquez"} 
-```
-Genere  los datos para el arreglo
-```
-promediosCualitativos(7), Cadena[a-z, A-Z, " "]
+### Ejercicios 3
 
-```
-* Promedio Regular son todas las notas >=0 y <=5.9
-* Promedio Bueno son todas las notas >=6 y <=8.9
-* Promedio Sobresaliente son todas las notas >=9 y <=10
+Crea un programa que gestione el inventario de una tienda, así como la emisión de facturas. Utiliza una matriz bidimensional para almacenar los productos disponibles en la tienda, con información como nombre, precio y cantidad. El programa debe permitir facturar un producto dado su código, y unidades deseadas. Adicional se debe agregar a la factura al 12% del IVA, y si la compra superar los $100, se debe aplicar un descuento. 
 
-Finalmente presentar un reporte como el que sigue:
+Nota: Considere la alternativa de inexistencias en Stop, para el caso, muestre la alerta respectiva. 
+Crea 
 
-```
-Kimberly Gonzalez promedio: 10,00 promedio cualitativo ?
-Mark Hogan promedio: 10,00 promedio cualitativo ?
-Teresa Martinez promedio: 9,10 promedio cualitativo ?
-Julia Johnson promedio: 7,00 promedio cualitativo ?
-Mark Cook promedio: 6,10 promedio cualitativo ?
-Jennifer Manning promedio: 4,00 promedio cualitativo ?
-Juan Vasquez promedio: 8,00 promedio cualitativo ?
-```
+### Ejercicios 4
+
+Crea un juego de tres en raya utilizando una matriz bidimensional de 3x3. Permita a dos jugadores marcar sus movimientos alternativamente. El juego debe verificar si alguno de los jugadores ha ganado o si hay un empate.
 
 ### Ejercicios 5
-Analice el siguiente flujo
-```
-estudiantes => {"Kimberly", "Hogan", "Teresa", "Luis", "Mark", "Jennifer", "Alcides"}
-Cadena inicial
-Lógica bandera => true
-Mientras(bandera)
-    Escribir "Ingrese una letra"
-    leer (inicial)
-FinMientras
-```
-Modifique el ciclo repetitivo para que salga del mismo, cuando el usuario ingrese por teclado una letra que coincida con alguna de las primeras letras de los nombres del arreglo **estudiantes**. Debe usar un ciclo repetitivo para recorrer el arreglo **estudiantes**.
+
+Desarrolla una solución que permita multiplicar dos matrices bidimensionales. El usuario debe ingresar las dimensiones y los elementos de ambas matrices. Realiza la multiplicación y muestra el resultado al final. Nota: Las matrices se deben llenar con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9).
 
 
 ### Ejercicios 6
-El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuales al finalizar el ciclo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas en función a los promedios obtenidos del ciclo por estudiantes (use 1 arreglo, no matrices, y para el promedio por estudiante, no ingrese el valor, si se debe autogenerar). 
 
-- Promedio del ciclo, del paralelo C. 
-- Listado de estudiantes con su nota por encima del promedio. 
-- Listado de estudiantes con su nota por debajo del promedio. 
-- Estudiante con la mejor calificación. 
-- Estudiante con la calificación mas baja. 
+Desarrolla una solución en pseudocódigo que permita mediante un menú (al estilo calculadora matemática), facilitar las operaciones de suma, resta de dos matrices. Considerar la validación de las reglas para realizar estas operaciones. Nota: Las matrices se deben llenar con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9).
+
+### Ejercicios 7
+
+Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9) generados automáticamente, presente los elementos de la diagonal secundaria, los ubicados sobre la diagonal secundaria, y bajo dicha diagonal.
+
+### Ejercicios 8
+
+Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9) generados automáticamente, presente los elementos de la diagonal principal, los ubicados sobre la diagonal principal, y bajo dicha principal.
+
+### Ejercicios 9
+
+Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de la salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar en la figura. 
+
+*
+* *
+* * *
+* * * *
+Ejemplo dado un límite de 4. 
+
+### Ejercicios 10
+
+Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de las salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar. Nota: Analice cual debería ser el límite correcto (mínimo y máximo) de la doble img para que sea una doble pirámide legible, validar ese dato de entrada. 
+
+   *
+  * *
+ * * *
+* * * *
+ * * *
+  * *
+   *
+Ejemplo dado un límite de 7. 
 
