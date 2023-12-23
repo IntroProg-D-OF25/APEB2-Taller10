@@ -10,7 +10,7 @@
 
 FORMATO:
 ```
-/* BLOQUE DE COMENTARIOS */. 
+/* BLOQUE DE COMENTARIOS */
 ```
 
 EJEMPLO:
@@ -20,9 +20,7 @@ NOMBRES | ACD  | APE | AA  | PROMEDIOS
 Juan S.  | 5,85   | 6,70   | 6,83   | 6,44   
 Juan D.  | 0,92   | 3,44   | 6,55   | 3,49   
 Ricardo  | 7,43   | 9,50   | 6,96   | 8,01   
-Carlos   | 5,38   | 6,24   | 9,22   | 6,84   
-Est1  | 6,21   | 8,53   | 0,50   | 5,31   
-Est2  | 1,53   | 1,72   | 2,05   | 1,76  
+Carlos   | 5,38   | 6,24   | 9,22   | 6,84    
  */ 
 ```
 
