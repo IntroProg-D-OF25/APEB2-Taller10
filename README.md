@@ -60,10 +60,10 @@ Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o ne
 Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de la salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar en la figura. 
 
 ```
-+
-+ +
-+ + +
-+ + + +
+*
+* *
+* * *
+* * * *
 ```
 Ejemplo dado un límite de 4. 
 
@@ -71,6 +71,7 @@ Ejemplo dado un límite de 4.
 
 Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de las salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar. Nota: Analice cual debería ser el límite correcto (mínimo y máximo) de la doble img para que sea una doble pirámide legible, validar ese dato de entrada. 
 
+```
    *
   * *
  * * *
@@ -78,5 +79,6 @@ Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se s
  * * *
   * *
    *
+```
 Ejemplo dado un límite de 7. 
 
