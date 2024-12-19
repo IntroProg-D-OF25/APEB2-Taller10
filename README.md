@@ -30,10 +30,10 @@ Dada una matriz cuadrada _*(m X m)*_ de valores enteros aleatorios, desarrollar 
 
 - De la diagonal principal.
 - De la diagonal segundaria.
-- Ubicados bajo la diagonal principal
-- Ubicados sobre la diagonal principal
-- Ubicados bajo la diagonal secundaria
-- Ubicados sobre la diagonal secundaria
+- Ubicados bajo la diagonal principal.
+- Ubicados sobre la diagonal principal.
+- Ubicados bajo la diagonal secundaria.
+- Ubicados sobre la diagonal secundaria.
 
 ### Ejercicio 2
 
@@ -44,7 +44,7 @@ Dadas dos matrices _(cuadradas y/o rectangulares)_ de valores enteros aleatorios
 
 ### Ejercicio 3
 
-El primer ciclo _paralelo C_, cuenta con *28* estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia *INTRODUCCIÓN A LA PROGRAMACIÓN* en función a los promedios por estudiante, dichos promedios se deben calcular _(ponderar, ya que el docente ingresa todo sobre 10pts.)_ de 3 calificaciones _(*ACD* que representa el *35%* de la nota, *APE* del *35%* y la nota del *AA* con un peso del *30%*)_. En resumen, los requerimientos son los siguientes: 
+El primer ciclo _paralelo C_, cuenta con *28* estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia *INTRODUCCIÓN A LA PROGRAMACIÓN* en función a los promedios por estudiante, dichos promedios se deben calcular _(ponderar, ya que el docente ingresa todo sobre 10pts.)_ de 3 calificaciones _(**ACD** que representa el *35%* de la nota, *APE* del *35%* y la nota del *AA* con un peso del *30%*)_. En resumen, los requerimientos son los siguientes: 
 
 - Registre los nombres de cada estudiante de dicho paralelo.
 - Genere aleatoriamente las notas *ACD*, *APE*, *AA*, para cada uno de los 28 estudiantes de 0-10 pts. 
