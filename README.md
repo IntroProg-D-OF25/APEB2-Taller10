@@ -1,12 +1,12 @@
-# Taller 10 (Laboratorio-GRUPAL)
+# Taller 10
 
-## Construcción de programas usando arreglos bidimensionales
+## Construcción de pseudocódigo usando arreglos bidimensionales / Matrices.
 
-* Definir la mejor estrategia de trabajo en grupo, ya que Ud. deberá defender individualmente todas las soluciones del presente taller en la clase presencial, y en base a esta defensa, de le asignará la calificación individualmente (pese a ser un taller grupal).
 * Leer detenidamente cada problemática propuesta.
 * Programa/codifíque con el lenguaje de alto nivel Java (IDE NetBeans), sus soluciones a cada uno de los problemas listados a continuación. 
 * Para cada programa, genere una clase independiente pero dentro de un solo/único proyecto Java App. (NO CREE VARIOS PROYECTOS, ni los empaquete, por favor, agregar los .java en el paquete por default). No olvide titular a cada clase, con el nombre representativo de la solución y con el número del problema de este listado. 
-* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas. Y con el objetivo de evidenciar los resultados, por favor, dentro de la misma clase (al final de todo el código), con los caracteres de bloque de comentarios, copie y pegue los resultados obtenidos por su solución, ejemplo: 
+* No olvide la eficiencia en sus soluciones, limpieza del código, identación correcta, comenterias en procesos complejos, etc. lo cual para el 2do.Bim. no es opcional. 
+* Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas. Y con el objetivo de evidenciar los resultados, por favor, dentro de la misma clase (al final de todo el código), con los caracteres de bloque de comentarios, copie y pegue los resultados obtenidos en su solución, ejemplo: 
 
 FORMATO:
 ```
@@ -23,11 +23,25 @@ Ricardo  | 7,43   | 9,50   | 6,96   | 8,01
 Carlos   | 5,38   | 6,24   | 9,22   | 6,84    
  */ 
 ```
-
-
-## Construcción de pseudocódigo usando arreglos bidimensionales / Matrices.
-
 ### Ejercicio 1
+
+Dada una matriz cuadrada (m * m) de valores enteros aleatorios, desarrollar su procesamiento para presentar los elementos: 
+
+- De la diagonal principal.
+- De la diagonal segundaria.
+- Ubicados bajo la diagonal principal
+- Ubicados sobre la diagonal principal
+- Ubicados bajo la diagonal secundaria
+- Ubicados sobre la diagonal secundaria
+
+### Ejercicio 2
+
+Dadas dos matrices (cuadradas y/o rectangulares) de valores enteros aleatorios, desarrollar su procesamiento para calcular y presentar:
+
+- La suma de las dos matrices (considerar las restricciones matemáticas para ello). 
+- La multiplicación de las dos matrices (considerar las reglas matemáticas para ello). 
+
+### Ejercicio 3
 
 El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia INTRODUCCIÓN A LA PROGRAMACIÓN en función a los promedios por estudiante, dichos promedios se deben calcular (ponderar) de 3 calificaciones (ACD que representa el 35% de la nota, APE del 35% y la nota del AA con un peso del 30%). En resumen, los requerimientos son los siguientes: 
 
@@ -40,62 +54,35 @@ El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuáles al finaliz
 - Muestre el estudiante con su calificación, si es el del mayor promedio (el más alto de la clase). 
 - Muestre el estudiante con su calificación, si es el del menor promedio (el más bajo de la clase). 
 
-### Ejercicio 2
+### Ejercicio 4
 
 Crea un programa que gestione el inventario de una tienda. Utiliza una matriz bidimensional para almacenar los productos disponibles en la tienda, con información como nombre, precio y cantidad. El programa debe permitir agregar nuevos productos, actualizar existencias, buscar productos y eliminarlos.
 
-### Ejercicio 3
+### Ejercicio 5
 
 Crea un programa que gestione el inventario de una tienda, así como la emisión de facturas. Utiliza una matriz bidimensional para almacenar los productos disponibles en la tienda, con información como nombre, precio y cantidad. El programa debe permitir facturar un producto dado su código, y unidades deseadas. Adicional se debe agregar a la factura al 12% del IVA, y si la compra superar los $100, se debe aplicar un descuento. 
 
 Nota: Considere la alternativa de inexistencias en Stop, para el caso, muestre la alerta respectiva. 
 Crea 
 
-### Ejercicio 4
+### Ejercicio 6
 
 Crea un juego de tres en raya utilizando una matriz bidimensional de 3x3. Permita a dos jugadores marcar sus movimientos alternativamente. El juego debe verificar si alguno de los jugadores ha ganado o si hay un empate.
 
-### Ejercicio 5
+### Ejercicio 7
 
 Desarrolla una solución que permita multiplicar dos matrices bidimensionales. El usuario debe ingresar las dimensiones y los elementos de ambas matrices. Realiza la multiplicación y muestra el resultado al final. Nota: Las matrices se deben llenar con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9).
 
 
-### Ejercicio 6
+### Ejercicio 8
 
 Desarrolla una solución en pseudocódigo que permita mediante un menú (al estilo calculadora matemática), facilitar las operaciones de suma, resta de dos matrices. Considerar la validación de las reglas para realizar estas operaciones. Nota: Las matrices se deben llenar con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9).
 
-### Ejercicio 7
+### Ejercicio 9
 
 Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9) generados automáticamente, presente los elementos de la diagonal secundaria, los ubicados sobre la diagonal secundaria, y bajo dicha diagonal.
 
-### Ejercicio 8
-
-Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9) generados automáticamente, presente los elementos de la diagonal principal, los ubicados sobre la diagonal principal, y bajo dicha principal.
-
-### Ejercicio 9
-
-Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de la salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar en la figura. 
-
-```
-*
-* *
-* * *
-* * * *
-```
-Ejemplo dado un límite de 4. 
-
 ### Ejercicio 10
 
-Con el objetivo de manipular correctamente los ciclos repetitivos anidados, se solicita, dado la altura de las salida, generar por pantalla las siguientes figuras. Nota: Ud. puede elegir libremente el caracter a mostrar. Nota: Analice cual debería ser el límite correcto (mínimo y máximo) de la doble img para que sea una doble pirámide legible, validar ese dato de entrada. 
-
-```
-   *
-  * *
- * * *
-* * * *
- * * *
-  * *
-   *
-```
-Ejemplo dado un límite de 7. 
+Dada una matriz cuadrada y con número aleatorios únicos enteros positivos o negativos (-9-0, 0-9) generados automáticamente, presente los elementos de la diagonal principal, los ubicados sobre la diagonal principal, y bajo dicha principal.
 
