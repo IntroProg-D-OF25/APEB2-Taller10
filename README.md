@@ -8,24 +8,25 @@
 * No olvide la eficiencia en sus soluciones, limpieza del código, identación correcta, comenterias en procesos complejos, etc. lo cual para el 2do.Bim. no es opcional. 
 * Verificar que sus soluciones son correctas con las técnicas de compilación, ejecución y depurado de programas. Y con el objetivo de evidenciar los resultados, por favor, dentro de la misma clase _(al final de todo el código)_, con los caracteres de bloque de comentarios, copie y pegue los resultados obtenidos en su solución, ejemplo: 
 
-> FORMATO:
+> *FORMATO*:
 > ```
 > /* BLOQUE DE COMENTARIOS */
 > ```
+> 
+> *EJEMPLO*:
+> ```
+> /* 
+> NOMBRES | ACD  | APE | AA  | PROMEDIOS
+> Juan S.  | 5,85   | 6,70   | 6,83   | 6,44   
+> Juan D.  | 0,92   | 3,44   | 6,55   | 3,49   
+> Ricardo  | 7,43   | 9,50   | 6,96   | 8,01   
+> Carlos   | 5,38   | 6,24   | 9,22   | 6,84    
+>  */ 
+> ```
 
-> EJEMPLO:
-```
-/* 
-NOMBRES | ACD  | APE | AA  | PROMEDIOS
-Juan S.  | 5,85   | 6,70   | 6,83   | 6,44   
-Juan D.  | 0,92   | 3,44   | 6,55   | 3,49   
-Ricardo  | 7,43   | 9,50   | 6,96   | 8,01   
-Carlos   | 5,38   | 6,24   | 9,22   | 6,84    
- */ 
-```
 ### Ejercicio 1
 
-Dada una matriz cuadrada (m * m) de valores enteros aleatorios, desarrollar su procesamiento para presentar los elementos: 
+Dada una matriz cuadrada _*(m X m)*_ de valores enteros aleatorios, desarrollar su procesamiento para presentar los elementos: 
 
 - De la diagonal principal.
 - De la diagonal segundaria.
@@ -36,23 +37,23 @@ Dada una matriz cuadrada (m * m) de valores enteros aleatorios, desarrollar su p
 
 ### Ejercicio 2
 
-Dadas dos matrices (cuadradas y/o rectangulares) de valores enteros aleatorios, desarrollar su procesamiento para calcular y presentar:
+Dadas dos matrices _(cuadradas y/o rectangulares)_ de valores enteros aleatorios, desarrollar su procesamiento para calcular y presentar:
 
-- La suma de las dos matrices (considerar las restricciones matemáticas para ello). 
-- La multiplicación de las dos matrices (considerar las reglas matemáticas para ello). 
+- La suma de las dos matrices _(considerar las restricciones matemáticas para ello)_. 
+- La multiplicación de las dos matrices _(considerar las reglas matemáticas para ello)_. 
 
 ### Ejercicio 3
 
-El primer ciclo paralelo C, cuenta con 28 estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia INTRODUCCIÓN A LA PROGRAMACIÓN en función a los promedios por estudiante, dichos promedios se deben calcular (ponderar) de 3 calificaciones (ACD que representa el 35% de la nota, APE del 35% y la nota del AA con un peso del 30%). En resumen, los requerimientos son los siguientes: 
+El primer ciclo _paralelo C_, cuenta con *28* estudiantes, de los cuáles al finalizar el periodo, la Dirección de la carrera de Computación a solicitado las siguientes estadísticas de la materia *INTRODUCCIÓN A LA PROGRAMACIÓN* en función a los promedios por estudiante, dichos promedios se deben calcular _(ponderar, ya que el docente ingresa todo sobre 10pts.)_ de 3 calificaciones _(*ACD* que representa el *35%* de la nota, *APE* del *35%* y la nota del *AA* con un peso del *30%*)_. En resumen, los requerimientos son los siguientes: 
 
 - Registre los nombres de cada estudiante de dicho paralelo.
-- Genere aleatoriamente las notas ACD, APE, AA, para cada uno de los 28 estudiantes de 0-10 pts. 
-- Calcule el promedio de cada uno de los estudiantes del paralelo dada la siguiente ponderación: ACD->35%, APE->35%, y el AA->30%.
-- Obtenga el promedio del curso, del paralelo C. 
+- Genere aleatoriamente las notas *ACD*, *APE*, *AA*, para cada uno de los 28 estudiantes de 0-10 pts. 
+- Calcule el promedio de cada uno de los estudiantes del paralelo dada la siguiente ponderación: *ACD*->35%, *APE*->35%, y el *AA*->30%.
+- Obtenga el promedio del curso, del _paralelo C_. 
 - Liste los nombres de los estudiantes y su nota, que hayan obtenido un promedio por encima del promedio del curso. 
 - Liste los nombres de los estudiantes y su nota, que hayan obtenido un promedio por debajo del promedio del curso. 
-- Muestre el estudiante con su calificación, si es el del mayor promedio (el más alto de la clase). 
-- Muestre el estudiante con su calificación, si es el del menor promedio (el más bajo de la clase). 
+- Muestre el estudiante con su calificación, si es el del mayor promedio _(el más alto de la clase)_. 
+- Muestre el estudiante con su calificación, si es el del menor promedio _(el más bajo de la clase)_. 
 
 ### Ejercicio 4
 
